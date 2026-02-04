@@ -8,10 +8,10 @@ on:
 
 jobs:
   update-readme:
-    name: Update this repo's README
+    name: Update this repo's README.md
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master
+      - uses: athul/waka-readme@main
         with:
           WAKATIME_API_KEY: ${{ secrets.WKTE }}
           BLOCKS: □■
